@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hero-section">
+        <div class="navbar">
+            <div class="logo">
+                <!-- Uncomment this and Replace with your logo image -->
+                <!-- <img src="path/to/your-logo.png" alt="Logo" class="logo-img" /> -->
+                <!-- Text fallback -->
+                <span class="logo-text">YOUR<span class="highlight">LOGO</span></span>
+            </div>
+            <div class="hamburger" onclick="toggleNavbar()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav id="navbar">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#our-project">Our Project</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+        </div>
+        <div class="hero-text" data-aos="fade-up">
+            <h1>I AM <span id="typewriter" class="highlight"></span> BASED</h1>
+            <h2>IN <span class="highlight">INDIA</span></h2>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>ABOUT</h2>
+        <div class="about-content" data-aos="fade-up">
+            <img src="img/boy.jpg" alt="Developer Image" />
+            <div class="about-text">
+                <p>
+                    Technology has always been more than just a tool for me; it's a canvas for innovation. From an early
+                    age, I have been fascinated by how systems work and how they can be optimized to serve people more
+                    efficiently.
+                </p>
+                <p>
+                    My approach to projects is both strategic and creative. I enjoy diving deep into
+                    challenges, breaking down complex concepts, and finding simple, effective solutions. With each
+                    project, I aim to push boundaries while maintaining clarity.
+                </p>
+                <button>DOWNLOAD CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>SERVICES</h2>
+        <div class="services-container" data-aos="fade-up">
+            <div class="service-box">
+                <h3>Web Design</h3>
+                <p>Creative web designs that stand out.</p>
+            </div>
+            <div class="service-box">
+                <h3>Photography</h3>
+                <p>Professional photography services for businesses.</p>
+            </div>
+            <div class="service-box">
+                <h3>Product Strategy</h3>
+                <p>Creating successful product strategies.</p>
+            </div>
+            <div class="service-box">
+                <h3>App Developing</h3>
+                <p>Creating top-notch mobile applications.</p>
+            </div>
+            <div class="service-box">
+                <h3>Branding</h3>
+                <p>Helping brands build their identity.</p>
+            </div>
+            <div class="service-box">
+                <h3>Web Developer</h3>
+                <p>End-to-end web development services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Project Section -->
+    <section id="our-project" data-aos="fade-up">
+        <h1>OUR PROJECT</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/HERO.jpg" alt="TaskMaster Pro">
+                <h2>TaskMaster Pro</h2>
+                <p>TaskMaster Pro is a web-based project management tool that helps teams streamline task allocation,
+                    track progress, and collaborate efficiently.</p>
+            </div>
+            <div class="project-card">
+                <img src="img/HERO.jpg" alt="TaskMaster Pro">
+                <h2>TaskMaster Pro</h2>
+                <p>TaskMaster Pro is a web-based project management tool that helps teams streamline task allocation,
+                    track progress, and collaborate efficiently.</p>
+            </div>
+            <div class="project-card">
+                <img src="img/HERO.jpg" alt="TaskMaster Pro">
+                <h2>TaskMaster Pro</h2>
+                <p>TaskMaster Pro is a web-based project management tool that helps teams streamline task allocation,
+                    track progress, and collaborate efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="contact">
+        <h2>CONTACT ME</h2>
+        <div class="contact-content" data-aos="fade-up">
+            <img src="img/the girl.jpg" alt="Coder at Work">
+            <div class="contact-info">
+                <p><strong>ADDRESS:</strong> Nagpur, Maharashtra</p>
+                <p><strong>PHONE NO:</strong> 123456789</p>
+                <p><strong>EMAIL:</strong> demogmail.com</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-section about">
+            <h3>ABOUT</h3>
+            <p>
+                Technology has always been more than just a tool for me; it's a canvas for innovation. From an early
+                age,
+                I have been fascinated by how systems work and how they can be optimized to serve people more
+                efficiently.
+                <br>
+                Whether it's solving a technical problem or creating a new feature, my goal is always to ensure that
+                the
+                user experience is seamless and enjoyable.
+            </p>
+        </div>
+        <div class="footer-section links">
+            <h3>LINKS</h3>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#our-project">OUR PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="footer-section services">
+            <h3>SERVICES</h3>
+            <ul>
+                <li>Web Design</li>
+                <li>Web Development</li>
+                <li>Business Strategy</li>
+                <li>Photography</li>
+                <li>App Developing</li>
+                <li>Branding</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
